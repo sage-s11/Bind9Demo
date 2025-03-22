@@ -1,0 +1,10 @@
+Name,Type,Value,TTL
+www.examplenv.demo,A,192.168.14.20,3600
+api.examplenv.demo,A,192.168.14.21,3600
+mail.examplenv.demo,A,192.168.14.22,3600
+alias.examplenv.demo,CNAME,www.examplenv.demo,3600
+blog.examplenv.demo,CNAME,www.examplenv.demo,3600
+smtp.examplenv.demo,CNAME,mail.examplenv.demo,3600
+20.14.168.192.in-addr.arpa,PTR,www.examplenv.demo,3600
+21.14.168.192.in-addr.arpa,PTR,api.examplenv.demo,3600
+22.14.168.192.in-addr.arpa,PTR,mail.examplenv.demo,3600
